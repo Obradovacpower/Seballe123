@@ -62,7 +62,7 @@ namespace HvaSaaSeb
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=}/{action=/Identity/Pages/Account/Login}");
+                    pattern: "{controller=Home}/{action=Index}");
                 endpoints.MapRazorPages();
             });
         }
