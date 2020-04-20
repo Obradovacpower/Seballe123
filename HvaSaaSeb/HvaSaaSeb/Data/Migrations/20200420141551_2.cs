@@ -2,7 +2,7 @@
 
 namespace HvaSaaSeb.Data.Migrations
 {
-    public partial class initial : Migration
+    public partial class _2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
